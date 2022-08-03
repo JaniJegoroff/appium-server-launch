@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+require 'rake/testtask'
+
+task default: %i[test]
+
+desc 'Run unit tests'
+Rake::TestTask.new do |t|
+  t.libs << 'spec'
+  t.test_files = FileList['spec/**/spec_*.rb']
+  t.verbose = true
+end

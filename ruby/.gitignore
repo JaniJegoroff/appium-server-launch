@@ -7,3 +7,6 @@
 
 # node
 node_modules
+
+# unit test reports
+test/reports

@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ansi (1.5.0)
     appium_lib (12.0.1)
       appium_lib_core (~> 5.0)
       nokogiri (~> 1.8, >= 1.8.1)
@@ -8,16 +9,24 @@ GEM
     appium_lib_core (5.2.2)
       faye-websocket (~> 0.11.0)
       selenium-webdriver (~> 4.2, < 4.4)
+    builder (3.2.4)
     childprocess (4.1.0)
     eventmachine (1.2.7)
     faye-websocket (0.11.1)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    minitest (5.16.2)
+    minitest-reporters (1.5.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
     racc (1.6.0)
     rake (13.0.6)
     rexml (3.2.5)
+    ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.3.0)
       childprocess (>= 0.5, < 5.0)
@@ -35,6 +44,8 @@ PLATFORMS
 
 DEPENDENCIES
   appium_lib (~> 12.0)
+  minitest (~> 5.16)
+  minitest-reporters (~> 1.5)
   rake (~> 13.0)
 
 BUNDLED WITH
