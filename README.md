@@ -1,2 +1,3 @@
 # appium-server-launch
-Examples how to launch Appium server from code for several different language bindings
+
+This repo contains examples for launching Appium server programmatically for several different language bindings.
