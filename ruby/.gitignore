@@ -1,0 +1,9 @@
+# general
+**.DS_Store
+**/*.cache
+.idea/*
+.bundle/*
+.bundle
+
+# node
+node_modules
