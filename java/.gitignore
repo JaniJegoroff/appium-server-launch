@@ -1,0 +1,10 @@
+# general
+*.iml
+.gradle
+.idea
+build 
+target
+.DS_Store
+
+# node
+node_modules

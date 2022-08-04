@@ -1,0 +1,23 @@
+group 'com.test.junit5'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    maven { url "https://jitpack.io" }
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.9.0')
+    testImplementation group: 'io.appium', name: 'java-client', version: '8.1.1'
+}
+
+test {
+    outputs.upToDateWhen {false}
+    useJUnitPlatform()
+    testLogging {
+        exceptionFormat = 'full'
+        showStandardStreams = true
+    }
+}
