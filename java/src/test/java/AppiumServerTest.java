@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class AppiumServer {
+public class AppiumServerTest {
     @Test
     public void test() {
         System.out.println("Hello Appium test skeleton!");

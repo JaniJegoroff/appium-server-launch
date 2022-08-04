@@ -33,11 +33,20 @@ node node_modules/appium/ -v
 npm install
 ```
 
-### Testing
+### Testing with Maven
 
-1. Run unit tests
 ```
-gradle clean test
+mvn test
+```
+Example:
+```
+TODO
+```
+
+### Testing with Gradle
+
+```
+gradle test
 ```
 Example:
 ```
