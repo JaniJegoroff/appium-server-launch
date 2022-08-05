@@ -44,7 +44,19 @@ mvn test
 ```
 Example:
 ```
-TODO
+<...>
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.945 s - in com.test.janijegoroff.junit5.AppiumServerTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.319 s
+[INFO] Finished at: 2022-08-05T22:18:16+01:00
+[INFO] ------------------------------------------------------------------------
 ```
 
 ### Testing with Gradle
@@ -54,5 +66,7 @@ gradle test
 ```
 Example:
 ```
-TODO
+<...>
+BUILD SUCCESSFUL in 5s
+2 actionable tasks: 1 executed, 1 up-to-date
 ```
