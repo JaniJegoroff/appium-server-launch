@@ -4,6 +4,8 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
+import com.roxstudio.utils.CUrl;
+
 import org.junit.jupiter.api.*;
 
 import java.io.File;
@@ -40,5 +42,13 @@ public class AppiumServerTest {
     @Test
     public void testServerRunningDefaultUrl() {
         assertEquals("http://0.0.0.0:4723/wd/hub/", server.getUrl().toString());
+    }
+
+    @Test
+    public void testHttpStatusCode() {
+        String statusUrl = server.getUrl() + "status".toString();
+        CUrl curl = new CUrl(statusUrl);
+        curl.exec();
+        assertEquals(200, curl.getHttpCode());
     }
 }
