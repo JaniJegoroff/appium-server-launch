@@ -9,6 +9,10 @@ macOS Monterey
 12.5
 ```
 ```
+Tests assumes `node` path as:
+which node
+/usr/local/bin/node
+
 node -v
 v18.4.0
 ```
@@ -23,7 +27,7 @@ Gradle 7.5
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.41
+1.22.3
 ```
 
 ### Install dependencies
