@@ -1,0 +1,6 @@
+# general
+.DS_Store
+.pytest_cache
+
+# node
+node_modules
