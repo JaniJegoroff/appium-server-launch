@@ -56,10 +56,10 @@ Example:
 platform darwin -- Python 3.10.6, pytest-7.1.2, pluggy-1.0.0
 rootdir: /Users/janijegoroff/projects/appium-server-launch/python, configfile: pytest.ini
 plugins: env-0.6.2
-collected 2 items
+collected 3 items
 
-appium_server_test.py ..                                                                      [100%]
+appium_server_test.py ...                                                                     [100%]
 
-========================================= 2 passed in 1.05s =========================================
+========================================= 3 passed in 1.11s =========================================
 (python) bash-3.2$
 ```

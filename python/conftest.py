@@ -34,3 +34,8 @@ def appium_path():
 def appium_server_base_path():
     """returns Appium server base path"""
     return os.environ.get('APPIUM_SERVER_BASE_PATH')
+
+@pytest.fixture(scope='session')
+def appium_server_status_url():
+    """returns Appium server status url"""
+    return os.environ.get('APPIUM_SERVER_STATUS_URL')
