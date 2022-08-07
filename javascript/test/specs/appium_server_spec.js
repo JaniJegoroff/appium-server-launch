@@ -1,5 +1,5 @@
 const appium = require('appium')
-const chai = require('chai')  
+const chai = require('chai')
 
 const assert = chai.assert
 
