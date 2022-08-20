@@ -3,19 +3,18 @@ const chai = require('chai')
 
 const assert = chai.assert
 
-describe('hooks', function () {
+describe('Appium server', function () {
     before(async function () {
-        let args = {base_path: '/wd/hub'}
-        let server = await appium.main(args)
+        let args = {base_path: '/wd/hub', allow_cors: true}
+        this.server = await appium.main(args)
     });
-  
-    after(async function () {
-        await server.close()
-    });
-});
 
-describe('Appium server', () => {
+    after(async function () {
+        await this.server.close()
+    });
+
     it('should be running', async () => {
-        assert(true)
+        const res = await fetch('http://localhost:4723/wd/hub/status')
+        assert(res.status == 200)
     });
 });
