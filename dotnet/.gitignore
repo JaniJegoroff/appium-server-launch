@@ -1,0 +1,7 @@
+# general
+.DS_Store
+bin
+obj
+
+# node
+node_modules
