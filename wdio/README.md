@@ -33,7 +33,7 @@ npm install
 ### Setup iPhone SE simulator
 
 ```
-Replace simulator udid with your in wdio.conf.js file
+# Replace simulator udid with your in wdio.conf.js file
 xcrun xctrace list devices | grep 'iPhone SE'
 ```
 
