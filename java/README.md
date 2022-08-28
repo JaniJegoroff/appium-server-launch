@@ -6,7 +6,7 @@ This example is using the latest JUnit, `JUnit 5` unit testing framework.
 
 ```
 macOS Monterey
-12.5
+12.5.1
 ```
 ```
 Tests assumes `node` path as:
@@ -14,7 +14,7 @@ which node
 /usr/local/bin/node
 
 node -v
-v18.4.0
+v18.8.0
 ```
 ```
 mvn -v
@@ -22,7 +22,7 @@ Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
 ```
 ```
 gradle -v
-Gradle 7.5
+Gradle 7.5.1
 ```
 ```
 Appium server (latest)
