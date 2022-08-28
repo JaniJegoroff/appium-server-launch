@@ -4,7 +4,7 @@
 
 ```
 macOS Monterey
-12.5
+12.5.1
 ```
 ```
 Tests assumes `node` path as:
@@ -12,7 +12,7 @@ which node
 /usr/local/bin/node
 
 node -v
-v18.7.0
+v18.8.0
 ```
 ```
 pyenv -v
