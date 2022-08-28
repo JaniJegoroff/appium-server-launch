@@ -7,7 +7,7 @@ namespace Appium.ServerLaunchTests
     [TestFixture]
     public class AppiumServerLaunchTest
     {
-        private AppiumLocalService _server;
+        private AppiumLocalService _server = default!;
 
         [OneTimeSetUp]
         public void BeforeAll()
