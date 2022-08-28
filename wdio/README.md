@@ -4,7 +4,7 @@
 
 ```
 macOS Monterey
-12.5
+12.5.1
 ```
 ```
 Xcode
@@ -12,7 +12,7 @@ Xcode
 ```
 ```
 node -v
-v18.7.0
+v18.8.0
 ```
 ```
 Appium server (latest)
