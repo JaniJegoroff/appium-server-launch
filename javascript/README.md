@@ -23,6 +23,12 @@ node node_modules/appium/ -v
 npm install
 ```
 
+### Run ESLint static code analysis
+
+```
+npm run lint
+```
+
 ### Testing with mocha
 
 ```
