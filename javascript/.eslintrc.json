@@ -1,0 +1,20 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "globals": {
+        "after": true,
+        "before": true,
+        "describe": true,
+        "it": true
+    },
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+    }
+}

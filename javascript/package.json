@@ -7,9 +7,12 @@
     "devDependencies": {
         "appium": "latest",
         "chai": "^4.3.6",
+        "eslint": "^8.23.0",
+        "eslint-config-airbnb": "^19.0.4",
         "mocha": "^10.0.0"
     },
     "scripts": {
+        "lint": "eslint test/specs/*.js",
         "test": "mocha test/specs/*.js"
     }
 }
