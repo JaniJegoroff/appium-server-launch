@@ -16,7 +16,11 @@ v18.8.0
 ```
 ```
 pyenv -v
-pyenv 2.3.3
+pyenv 2.3.4
+```
+```
+pipenv --version
+pipenv, version 2022.9.4
 ```
 ```
 pyenv versions
