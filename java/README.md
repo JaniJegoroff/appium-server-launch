@@ -6,7 +6,7 @@ This example is using the latest JUnit, `JUnit 5` unit testing framework.
 
 ```
 macOS Monterey
-12.5.1
+12.6
 ```
 ```
 Tests assumes `node` path as:

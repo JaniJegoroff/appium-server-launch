@@ -4,7 +4,7 @@
 
 ```
 macOS Monterey
-12.5.1
+12.6
 ```
 ```
 Xcode
