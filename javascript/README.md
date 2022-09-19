@@ -8,7 +8,7 @@ macOS Monterey
 ```
 ```
 node -v
-v18.8.0
+v18.9.0
 ```
 ```
 Appium server (latest)
