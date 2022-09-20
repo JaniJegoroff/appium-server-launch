@@ -27,7 +27,7 @@ Gradle 7.5.1
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-1.22.3
+2.0.0-beta.44
 ```
 
 ### Install dependencies
