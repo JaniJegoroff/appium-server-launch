@@ -1,6 +1,6 @@
-using System.Net.Http;
 using NUnit.Framework;
 using OpenQA.Selenium.Appium.Service;
+using Shouldly;
 
 namespace Appium.ServerLaunchTests
 {
@@ -25,7 +25,7 @@ namespace Appium.ServerLaunchTests
         [Test]
         public void TestIsRunning()
         {
-            Assert.IsTrue(_server.IsRunning);
+            _server.IsRunning.ShouldBeTrue();
         }
 
         [Test]
@@ -33,8 +33,8 @@ namespace Appium.ServerLaunchTests
         {
             var defaultUrl = "http://localhost:4723/wd/hub/status";
             var httpClient = new HttpClient();
-            var response = httpClient.GetAsync(defaultUrl).Result;
-            Assert.That((int)response.StatusCode, Is.EqualTo(200));
+            int statusCode = (int)httpClient.GetAsync(defaultUrl).Result.StatusCode;
+            statusCode.ShouldBeEquivalentTo(200);
         }
     }
 }
