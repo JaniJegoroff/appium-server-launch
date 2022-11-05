@@ -14,7 +14,7 @@ which node
 /usr/local/bin/node
 
 node -v
-v18.10.0
+v18.11.0
 ```
 ```
 mvn -v
@@ -27,7 +27,7 @@ Gradle 7.5.1
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.44
+2.0.0-beta.46
 ```
 
 ### Install dependencies
