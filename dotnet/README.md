@@ -8,7 +8,7 @@ macOS Monterey
 ```
 ```
 node -v
-v18.10.0
+v18.11.0
 ```
 ```
 # Currently tested with globally installed Appium server
