@@ -18,9 +18,9 @@ v19.0.1
 ```
 ```
 dotnet --info
-.NET SDK (reflecting any global.json):
- Version:   6.0.400
- Commit:    7771abd614
+.NET SDK:
+ Version:   7.0.100
+ Commit:    e12b7af219
 ```
 
 ### Install dependencies
@@ -38,15 +38,16 @@ dotnet test
 ```
 Example:
 ```
-Determining projects to restore...
+Janis-MBP:dotnet janijegoroff$ dotnet test
+  Determining projects to restore...
   All projects are up-to-date for restore.
-  dotnet -> /Users/janijegoroff/projects/appium-server-launch/dotnet/bin/Debug/net6.0/dotnet.dll
-Test run for /Users/janijegoroff/projects/appium-server-launch/dotnet/bin/Debug/net6.0/dotnet.dll (.NETCoreApp,Version=v6.0)
-Microsoft (R) Test Execution Command Line Tool Version 17.3.0 (x64)
+  dotnet -> /Users/janijegoroff/projects/appium-server-launch/dotnet/bin/Debug/net7.0/dotnet.dll
+Test run for /Users/janijegoroff/projects/appium-server-launch/dotnet/bin/Debug/net7.0/dotnet.dll (.NETCoreApp,Version=v7.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.4.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 
-Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 56 ms - /Users/janijegoroff/projects/appium-server-launch/dotnet/bin/Debug/net6.0/dotnet.dll (net6.0)
+Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 46 ms - dotnet.dll (net7.0)
 ```
