@@ -1,4 +1,4 @@
-# Python example
+# Python (pytest) example
 
 ### Tested setup
 
