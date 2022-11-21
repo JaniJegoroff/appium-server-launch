@@ -4,11 +4,7 @@ Test Setup        Launch appium server
 Test Teardown     Stop appium server
 
 *** Test Cases ***
-Test Appium Server Is Running
+Appium Server Is Up And Running
     Then Appium server should be running
-
-Test Appium Server Is Listening
-    Then Appium server should be listening
-
-Test Appium Server HTTP Status Code
-    Then Appium server http status code should be 200
+    And Appium server should be listening
+    And Appium server http status code should be 200

@@ -59,14 +59,10 @@ Example:
 ==============================================================================
 Appium Server Test Suite
 ==============================================================================
-Test Appium Server Is Running                                         | PASS |
-------------------------------------------------------------------------------
-Test Appium Server Is Listening                                       | PASS |
-------------------------------------------------------------------------------
-Test Appium Server HTTP Status Code                                   | PASS |
+Appium Server Is Up And Running                                       | PASS |
 ------------------------------------------------------------------------------
 Appium Server Test Suite                                              | PASS |
-3 tests, 3 passed, 0 failed
+1 test, 1 passed, 0 failed
 ==============================================================================
 Output:  /Users/janijegoroff/projects/appium-server-launch/python/robot_framework/output.xml
 Log:     /Users/janijegoroff/projects/appium-server-launch/python/robot_framework/log.html
