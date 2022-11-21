@@ -1,0 +1,10 @@
+# general
+.DS_Store
+
+# node
+node_modules
+
+# robot
+log*
+output*
+report*
