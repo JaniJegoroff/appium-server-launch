@@ -4,11 +4,11 @@
 
 ```
 macOS Monterey
-12.6
+12.6.2
 ```
 ```
 node -v
-v18.9.0
+v19.1.0
 ```
 ```
 Appium server (latest)
