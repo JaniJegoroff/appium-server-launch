@@ -12,5 +12,5 @@ def test_appium_server_listening(appium_server):
 
 def test_appium_server_http_status_code(appium_server_status_url):
     """test Appium server HTTP status code"""
-    request = requests.get(appium_server_status_url)
+    request = requests.get(appium_server_status_url, timeout=5)
     assert request.status_code == 200
