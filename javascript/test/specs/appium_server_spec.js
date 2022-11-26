@@ -1,5 +1,5 @@
 const appium = require('appium');
-const { assert } = require('chai');
+const { expect } = require('chai');
 
 describe('Appium server', () => {
   before(async () => {
@@ -13,6 +13,6 @@ describe('Appium server', () => {
 
   it('should be running', async () => {
     const res = await fetch('http://localhost:4723/wd/hub/status');
-    assert(res.status === 200);
+    expect(res.status).to.deep.equal(200);
   });
 });
