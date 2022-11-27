@@ -8,7 +8,7 @@ macOS Monterey
 ```
 ```
 node -v
-v19.0.1
+v19.1.0
 ```
 ```
 # Currently tested with globally installed Appium server
@@ -49,5 +49,5 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 
-Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 46 ms - dotnet.dll (net7.0)
+Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 37 ms - dotnet.dll (net7.0)
 ```
