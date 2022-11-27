@@ -14,7 +14,7 @@ which node
 /usr/local/bin/node
 
 node -v
-v19.0.1
+v19.1.0
 ```
 ```
 mvn -v
@@ -22,7 +22,7 @@ Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
 ```
 ```
 gradle -v
-Gradle 7.5.1
+Gradle 7.6
 ```
 ```
 Appium server (latest)
