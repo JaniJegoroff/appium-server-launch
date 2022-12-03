@@ -12,11 +12,11 @@ which node
 /usr/local/bin/node
 
 node -v
-v19.1.0
+v19.2.0
 ```
 ```
 pyenv -v
-pyenv 2.3.6
+pyenv 2.3.7
 ```
 ```
 pipenv --version
