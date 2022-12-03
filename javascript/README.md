@@ -8,7 +8,7 @@ macOS Monterey
 ```
 ```
 node -v
-v19.1.0
+v19.2.0
 ```
 ```
 Appium server (latest)
