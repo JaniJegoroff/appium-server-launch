@@ -4,7 +4,7 @@
 
 ```
 macOS Monterey
-12.6.2
+12.6.3
 ```
 ```
 Tests assumes `node` path as:
@@ -16,7 +16,7 @@ v19.2.0
 ```
 ```
 pyenv -v
-pyenv 2.3.7
+pyenv 2.3.8
 ```
 ```
 pipenv --version
