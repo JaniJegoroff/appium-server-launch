@@ -16,19 +16,19 @@ v19.2.0
 ```
 ```
 pyenv -v
-pyenv 2.3.8
+pyenv 2.3.9
 ```
 ```
 pipenv --version
-pipenv, version 2022.9.4
+pipenv, version 2022.9.24
 ```
 ```
 pyenv versions
-python 3.10.6
+python 3.11.1
 ```
 ```
 pip -V
-pip 22.2.2
+pip 22.3.1
 ```
 ```
 Appium server (latest)
