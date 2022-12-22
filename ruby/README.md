@@ -4,11 +4,11 @@
 
 ```
 macOS Monterey
-12.6.2
+12.6.3
 ```
 ```
 node -v
-v19.0.1
+v19.2.0
 ```
 ```
 ruby -v
@@ -17,7 +17,7 @@ ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.46
+2.0.0-beta.48
 ```
 
 ### Install dependencies
