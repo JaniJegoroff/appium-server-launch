@@ -33,7 +33,7 @@ pip 22.3.1
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.46
+2.0.0-beta.48
 ```
 
 ### Install dependencies
