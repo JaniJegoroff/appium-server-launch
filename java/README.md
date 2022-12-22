@@ -27,7 +27,7 @@ Gradle 7.6
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.46
+2.0.0-beta.48
 ```
 
 ### Install dependencies
@@ -45,7 +45,7 @@ mvn test
 Example:
 ```
 <...>
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.945 s - in com.test.janijegoroff.junit5.AppiumServerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.242 s - in com.test.janijegoroff.junit5.AppiumServerTest
 [INFO]
 [INFO] Results:
 [INFO]
@@ -54,8 +54,8 @@ Example:
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.319 s
-[INFO] Finished at: 2022-08-05T22:18:16+01:00
+[INFO] Total time:  11.955 s
+[INFO] Finished at: 2022-12-22T23:44:46Z
 [INFO] ------------------------------------------------------------------------
 ```
 
@@ -67,6 +67,6 @@ gradle test
 Example:
 ```
 <...>
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 7s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
