@@ -12,15 +12,15 @@ which node
 /usr/local/bin/node
 
 node -v
-v19.2.0
+v19.4.0
 ```
 ```
 pyenv -v
-pyenv 2.3.9
+pyenv 2.3.11
 ```
 ```
 pipenv --version
-pipenv, version 2022.9.24
+pipenv, version 2022.12.19
 ```
 ```
 pyenv versions
@@ -33,7 +33,7 @@ pip 22.3.1
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.48
+2.0.0-beta.52
 ```
 
 ### Install dependencies
