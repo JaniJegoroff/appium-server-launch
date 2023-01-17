@@ -14,11 +14,11 @@ which node
 /usr/local/bin/node
 
 node -v
-v19.2.0
+v19.4.0
 ```
 ```
 mvn -v
-Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+Apache Maven 3.8.7 (b89d5959fcde851dcb1c8946a785a163f14e1e29)
 ```
 ```
 gradle -v
@@ -27,7 +27,7 @@ Gradle 7.6
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.48
+2.0.0-beta.52
 ```
 
 ### Install dependencies
@@ -45,7 +45,7 @@ mvn test
 Example:
 ```
 <...>
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.242 s - in com.test.janijegoroff.junit5.AppiumServerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.354 s - in com.test.janijegoroff.junit5.AppiumServerTest
 [INFO]
 [INFO] Results:
 [INFO]
@@ -54,8 +54,8 @@ Example:
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  11.955 s
-[INFO] Finished at: 2022-12-22T23:44:46Z
+[INFO] Total time:  9.488 s
+[INFO] Finished at: 2023-01-17T23:09:42Z
 [INFO] ------------------------------------------------------------------------
 ```
 
@@ -67,6 +67,6 @@ gradle test
 Example:
 ```
 <...>
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 9s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
