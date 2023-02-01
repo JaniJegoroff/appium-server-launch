@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-appium-python-client = "==2.7.1"
+appium-python-client = "==2.8.1"
 requests = "==2.28.2"
 robotframework = "==6.0.2"
 
