@@ -5,6 +5,6 @@
   "private": true,
   "description": "Appium server launch example for Python (robot framework)",
   "devDependencies": {
-    "appium": "2.0.0-beta.57"
+    "appium": "2.0.0"
   }
 }
