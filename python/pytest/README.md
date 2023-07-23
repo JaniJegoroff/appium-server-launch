@@ -4,7 +4,7 @@
 
 ```
 macOS Monterey
-12.6.4
+12.6.8
 ```
 ```
 Tests assumes `node` path as:
@@ -12,15 +12,15 @@ which node
 /usr/local/bin/node
 
 node -v
-v19.7.0
+v20.5.0
 ```
 ```
 pyenv -v
-pyenv 2.3.15
+pyenv 2.3.23
 ```
 ```
 pipenv --version
-pipenv, version 2023.2.18
+pipenv, version 2023.7.11
 ```
 ```
 pyenv versions
@@ -33,7 +33,7 @@ pip 22.3.1
 ```
 Appium server (latest)
 node node_modules/appium/ -v
-2.0.0-beta.57
+2.0.0
 ```
 
 ### Install dependencies
@@ -57,13 +57,14 @@ Example:
 ```
 (pytest) bash-3.2$ pytest
 ======================================== test session starts ========================================
-platform darwin -- Python 3.11.1, pytest-7.2.2, pluggy-1.0.0
-rootdir: /Users/janijegoroff/projects/appium-server-launch/python/pytest, configfile: pytest.ini
-plugins: env-0.8.1
+platform darwin -- Python 3.11.1, pytest-7.4.0, pluggy-1.2.0
+rootdir: /Users/janijegoroff/projects/appium-server-launch/python/pytest
+configfile: pytest.ini
+plugins: env-0.8.2
 collected 3 items
 
 appium_server_test.py ...                                                                     [100%]
 
-========================================= 3 passed in 7.52s =========================================
+========================================= 3 passed in 5.21s =========================================
 (pytest) bash-3.2$
 ```
